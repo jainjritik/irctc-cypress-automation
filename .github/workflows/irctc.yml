@@ -9,15 +9,15 @@ on:
       USERNAME:
         required: true
         type: string
-        description: "Your IRCTC Username"
+        description: "rj5983"
       PASSWORD:
         required: true
         type: string
-        description: "Your IRCTC Password"
+        description: "Irctc5983"
       UPI_ID:
         required: true
         type: string
-        description: "Your UPI ID To Make Payment From"
+        description: "jain.jritik@oksbi"
 jobs:
   IRCTC-Booking:
     runs-on: ubuntu-22.04
