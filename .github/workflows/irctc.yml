@@ -9,15 +9,15 @@ on:
       USERNAME:
         required: true
         type: string
-        description: "rj5983"
+        description: "USERNAME"
       PASSWORD:
         required: true
         type: string
-        description: "Irctc5983"
+        description: "PASSWORD"
       UPI_ID:
         required: true
         type: string
-        description: "jain.jritik@oksbi"
+        description: "UPI ID"
 jobs:
   IRCTC-Booking:
     runs-on: ubuntu-22.04
